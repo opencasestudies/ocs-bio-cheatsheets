@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>talks.knit</title>
+
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link rel="shortcut icon" href="css/images/ITN_favicon.ico" />
+ <!--- go to https://favicon.io/favicon-converter/ to upload an image to make a new favicon.io. You will need to replace the current favicon.io image with the one in the downloaded directory from the website. The current image is in the resources/images/ directory --->
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="css/ITN_style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<div class="header_box">
+<p><u>Presenting
+Talks<img src='css/images/talks.png' width = 20% ></u><br><span
+style="color:#14395f;"> Best Practices </span></p>
+</div>
+<div class="png_button">
+<a href="https://raw.githubusercontent.com/ottrproject/cheatsheets/refs/heads/main/pngs/talks.png">Download
+cheatsheet</a>
+</div>
+<div class="time">
+<strong>Last updated: September 11, 2026</strong>
+</div>
+<hr>
+<div id="structure" class="section level2 unnumbered">
+<h2 class="unnumbered">Structure</h2>
+<div class="row">
+<div class="column">
+<p>Research talks at conferences will often have this structure:</p>
+<ol style="list-style-type: decimal">
+<li><strong>Background &amp; Significance</strong></li>
+</ol>
+<ul>
+<li>This should cover the context of the field and any information
+needed for people to understand your research.</li>
+<li>This section should describe why your work is important, why it is
+needed, and how it contributes to the field.</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Methods</strong></li>
+</ol>
+<ul>
+<li>In this section, researchers briefly describe the general methods
+used.</li>
+<li>Specific details should be covered if they are necessary for
+describing your work.</li>
+<li>If you are using an unusual or new method that you developed, more
+detail should be provided.</li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>Results</strong></li>
+</ol>
+<ul>
+<li>This is where you show figures and statistics of your results.</li>
+<li>It’s essential to explain what your results mean and their possible
+limitations.</li>
+</ul>
+</div>
+<div class="column">
+<ol start="4" style="list-style-type: decimal">
+<li><strong>Impact and Future Directions</strong></li>
+</ol>
+<ul>
+<li>In this section, researchers describe what they plan to do next and
+the significance of their findings.</li>
+</ul>
+<ol start="5" style="list-style-type: decimal">
+<li><strong>Thank you</strong></li>
+</ol>
+<ul>
+<li>In this section, researchers show who was involved in the work and
+provide the grant number that funded it.</li>
+</ul>
+<center>
+<div class="warning">
+<p>Make sure you follow any guidelines required or suggested by the
+speaking opportunity.</p>
+</div>
+</center>
+</div>
+</div>
+<hr>
+</div>
+<div id="best-practices" class="section level2 unnumbered">
+<h2 class="unnumbered">Best Practices</h2>
+<div class="row">
+<div class="column">
+<br> <br>
+<center>
+<div class="Note">
+<p>It is a good idea to keep track of what talks you do (including when
+and where) on your CV!</p>
+<center>
+<img src="css/images/bulb.png" width = 30%>
+</center>
+</div>
+</center>
+</div>
+<div class="column">
+<p><input type="checkbox"> Simple is often better</p>
+<ul>
+<li><p>People can only retain so much information at conferences; make
+sure the key information is clear.</p></li>
+<li><p>Focus on the impact and significance, especially for short
+talks.</p></li>
+<li><p>People can ask for additional details.</p></li>
+</ul>
+<p><input type="checkbox"> Tailor your talk for your audience</p>
+<ul>
+<li>Even though there may be experts, remember that there are likely
+attendees who are totally new to your subject area.</li>
+</ul>
+<p><input type="checkbox"> Practice your talk!</p>
+<ul>
+<li>Be careful about how fast you speak, try not to talk too fast!</li>
+</ul>
+<p><input type="checkbox"> Show up early to test opening your talk and
+advancing slides.</p>
+<p><input type="checkbox"> Have a backup version of your presentation in
+another format, in case there are technical difficulties.</p>
+<ul>
+<li>A PDF version works well!</li>
+</ul>
+</div>
+</div>
+<hr>
+</div>
+<div id="preparation" class="section level2 unnumbered">
+<h2 class="unnumbered">Preparation</h2>
+<div class="row">
+<div class="column">
+<p><strong>Draft the slides</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>  <input type="checkbox"> Determine the time limit
+required.</p></li>
+<li><p>  <input type="checkbox"> Draft slides according to the time
+limit.</p>
+<ul>
+<li><strong>Focus on visuals over text</strong></li>
+<li><strong>Keep slides simple!</strong></li>
+</ul></li>
+</ol>
+<p><strong>Check your slides</strong></p>
+<ol style="list-style-type: decimal">
+<li><p><input type="checkbox"> Check for language clarity.</p></li>
+<li><p><input type="checkbox"> Check that fonts are large enough, size
+18 or larger is often recommended.</p></li>
+<li><p><input type="checkbox"> Check that figures are large enough and
+aren’t blurry.</p></li>
+<li><p><input type="checkbox"> Check that all jargon is explained
+(outside of what is broadly typical).</p></li>
+<li><p><input type="checkbox"> Check that all acronyms are spelled out
+the first time.</p></li>
+<li><p><input type="checkbox"> Check that images cite sources if not
+original.</p></li>
+</ol>
+<p><strong>Practice your talk</strong></p>
+<ol style="list-style-type: decimal">
+<li><p><input type="checkbox"> Practice giving your talk by yourself and
+adjust to fit the time limit.</p></li>
+<li><p><input type="checkbox"> Get feedback from others where possible
+(including your PI and lab mates). Be prepared to iterate and change
+your talk several times.</p></li>
+</ol>
+</div>
+<div class="column">
+<p><strong>Share info!</strong></p>
+<ol style="list-style-type: decimal">
+<li><input type="checkbox"> Include your contact information, so others
+can reach out.</li>
+</ol>
+<p>If it is OK with your PI:</p>
+<ol start="2" style="list-style-type: decimal">
+<li><p><input type="checkbox"> <em>Optional</em>: Consider adding your
+talk to your professional website.</p></li>
+<li><p><input type="checkbox"> <em>Optional</em>: Include a link or QR
+code so others can find your talk easily! Tools like <a
+href="https://app.bitly.com/">Bitly</a> can help!)</p></li>
+</ol>
+<br> <br>
+<center>
+<div class="star">
+<p>Ways to Improve:</p>
+<ul>
+<li><strong>Watch talks!</strong> Pay attention to good speakers and
+emulate them.</li>
+<li><strong>Practice makes perfect.</strong> The more experience you
+get, the more comfortable you will get!</li>
+<li><strong>Keep track of your talks.</strong> Keep your old talks to
+reuse content.</li>
+</ul>
+</div>
+</center>
+</div>
+</div>
+<hr>
+</div>
+<div id="answering-questions" class="section level2 unnumbered">
+<h2 class="unnumbered">Answering Questions</h2>
+<div class="row">
+<div class="column">
+<br> <br> <br> <br> <br>
+<center>
+<img src="css/images/chat.png" width = 40%>
+</center>
+<p><br> <br></p>
+</div>
+<div class="column">
+<ol style="list-style-type: decimal">
+<li><strong>Prepare for questions</strong></li>
+</ol>
+<p>You can come up with a list of questions you think people might ask
+and prepare answers for those questions.</p>
+<p>With more experience it will be clear what kinds of questions are
+typically asked.</p>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>It is OK to say you don’t know</strong></li>
+</ol>
+<p>You can speculate, but be clear that you are speculating.</p>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>People may ask too many questions</strong></li>
+</ol>
+<p>You can tell people that you would like to discuss more with them
+later.</p>
+<ol start="4" style="list-style-type: decimal">
+<li><strong>People may not have questions</strong></li>
+</ol>
+<p>Just because people don’t ask you questions, doesn’t mean they
+weren’t engaged. Stick around after the talk to see if anyone approaches
+you.</p>
+<p>Talks at the end of sessions or before lunch, or shifting to a new
+topic sometimes don’t get the same level of attention.</p>
+</div>
+</div>
+<hr>
+<center>
+<a href="https://www.itcrtraining.org/">
+<img src="css/images/ITN_logo.png" width = 30%> </a>
+</center>
+<div class="authors">
+<p><strong>Authors</strong>: Content for this cheatsheet came from
+Carrie Wright and Lauren Chan. It was summarized and formatted by Carrie
+Wright. Icons from <a href="https://www.iconpacks.net"
+class="uri">https://www.iconpacks.net</a>. <br> This content is free for
+noncommercial reuse with attribution. CC-BY-NC</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

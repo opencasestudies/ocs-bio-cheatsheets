@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>chairing.knit</title>
+
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link rel="shortcut icon" href="css/images/ITN_favicon.ico" />
+ <!--- go to https://favicon.io/favicon-converter/ to upload an image to make a new favicon.io. You will need to replace the current favicon.io image with the one in the downloaded directory from the website. The current image is in the resources/images/ directory --->
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="css/ITN_style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<div class="header_box">
+<p><u>Chairing
+Sessions<img src='css/images/chair.png' width = 20% ></u><br><span
+style="color:#14395f;"> Roles and Goals </span></p>
+</div>
+<div class="png_button">
+<a href="https://raw.githubusercontent.com/ottrproject/cheatsheets/refs/heads/main/pngs/chairing.png">Download
+cheatsheet</a>
+</div>
+<div class="time">
+<strong>Last updated: September 11, 2026</strong>
+</div>
+<hr>
+<div id="responsibilities" class="section level2 unnumbered">
+<h2 class="unnumbered">Responsibilities</h2>
+<div class="row">
+<div class="column">
+<p>A session chair at a scientific conference:</p>
+<ul>
+<li>Introduces topics and speakers</li>
+<li>Facilitates questions</li>
+<li>Manages time</li>
+</ul>
+</div>
+<div class="column">
+<center>
+<div class="warning">
+<p>If you are <strong>co-chairing</strong>, ensure all chairs are
+aligned on who is responsible for each task.</p>
+</div>
+</center>
+</div>
+</div>
+<hr>
+</div>
+<div id="tasks-ahead-of-time" class="section level2 unnumbered">
+<h2 class="unnumbered">Tasks Ahead of Time</h2>
+<div class="row">
+<div class="column">
+<p><input type="checkbox"> Meet with session speakers</p>
+<ol style="list-style-type: decimal">
+<li><p><input type="checkbox"> Check name pronunciation</p></li>
+<li><p><input type="checkbox"> Check affiliation</p></li>
+<li><p><input type="checkbox"> Remind speakers about declaring
+conflicts</p></li>
+<li><p><input type="checkbox"> Explain timing plan</p></li>
+<li><p><input type="checkbox"> Perform technical checks</p></li>
+<li><p><input type="checkbox"> Discuss backup plans for technical
+challenges</p>
+<ul>
+<li>Examples: Request a PDF or video from speakers ahead of time just in
+case</li>
+</ul></li>
+<li><p><input type="checkbox"> Confirm communication plan for day of (if
+virtual)</p>
+<ul>
+<li>Examples: Slack, e-mail, etc.</li>
+</ul></li>
+</ol>
+</div>
+<div class="column">
+<p><input type="checkbox"> Read speaker abstracts to
+<strong>familiarize</strong> yourself with the content to prepare for
+facilitating discussion</p>
+<p><input type="checkbox"> Remind session speakers</p>
+<ol style="list-style-type: decimal">
+<li><p><input type="checkbox"> Request for any files ahead of
+time</p></li>
+<li><p><input type="checkbox"> Request speakers to come early day of
+event</p></li>
+<li><p><input type="checkbox"> Remind session speakers <strong>one
+week</strong> before</p></li>
+<li><p><input type="checkbox"> Remind session speakers <strong>one
+day</strong> before</p></li>
+</ol>
+<br> <br>
+<center>
+<img src="css/images/calendar.png" width = 40%>
+</center>
+</div>
+</div>
+<hr>
+</div>
+<div id="tasks-day-of-event" class="section level2 unnumbered">
+<h2 class="unnumbered">Tasks Day of Event</h2>
+<div class="row">
+<div class="column">
+<p><input type="checkbox"> Show up early to check systems and check in
+with speakers</p>
+<p><input type="checkbox"> Give a short summary of the session</p>
+<ul>
+<li>(e.g., “This session is about Topic X and will have Y
+speakers”)</li>
+</ul>
+<p><input type="checkbox"> Provide housekeeping announcements</p>
+<ul>
+<li>(e.g., break time, voting, etc.)</li>
+</ul>
+<p><input type="checkbox"> Introduce speakers</p>
+<ul>
+<li>(name, role, institution, talk title)</li>
+</ul>
+<p><input type="checkbox"> Watch the time to ensure schedule is
+maintained</p>
+<p><input type="checkbox"> Ask the audience for questions</p>
+</div>
+<div class="row">
+<br> <br>
+<center>
+<img src="css/images/screen.png" width = 20%>
+</center>
+</div>
+<hr>
+</div>
+<div id="possible-challenges" class="section level2 unnumbered">
+<h2 class="unnumbered">Possible Challenges</h2>
+<div class="row">
+<div class="column">
+<br> <br> <br> <br> <br>
+<center>
+<img src="css/images/redclock.png" width = 40%>
+</center>
+<p><br> <br></p>
+</div>
+<div class="column">
+<ol style="list-style-type: decimal">
+<li><strong>Technical Difficulties</strong></li>
+</ol>
+<p><input type="checkbox"> Have backup plans and do checks!</p>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Speakers may speak too long</strong></li>
+</ol>
+<p><input type="checkbox"> Notify speakers of time limits (5 min left, 1
+min left)</p>
+<p><input type="checkbox"> Interrupt the speaker if needed</p>
+<div class="comment">
+“Thank you for your talk. To stay on schedule, we’ll need to
+transition.”
+</div>
+<p><input type="checkbox"> Shorten question sessions as needed</p>
+<p><input type="checkbox"> Adjust subsequent speaker times if needed</p>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>People may ask too many questions</strong></li>
+</ol>
+<p><input type="checkbox"> Interrupt and ask for the discussion to
+happen later</p>
+<div class="comment">
+<em>“For sake of time, perhaps this can be discussed later.”</em>
+</div>
+<ol start="4" style="list-style-type: decimal">
+<li><strong>People may not have questions</strong></li>
+</ol>
+<p><input type="checkbox"> Ask your own question(s)</p>
+</div>
+</div>
+<hr>
+<center>
+<a href="https://www.itcrtraining.org/">
+<img src="css/images/ITN_logo.png" width = 30%> </a>
+</center>
+<div class="authors">
+<p><strong>Authors</strong>: Content for this cheatsheet came from Kate
+Isaac, Carrie Wright, and Sean Davis.It was summarized and formatted by
+Carrie Wright. Icons from <a href="https://www.iconpacks.net"
+class="uri">https://www.iconpacks.net</a>. The cheatsheet was also
+inspired by this article: <a
+href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2738972/"
+class="uri">https://pmc.ncbi.nlm.nih.gov/articles/PMC2738972/</a> and
+ideas from AI: <a
+href="https://www.perplexity.ai/search/i-m-organizing-a-scientific-me-b5m7ym8jTBOl2MjdMhLlRw"
+class="uri">https://www.perplexity.ai/search/i-m-organizing-a-scientific-me-b5m7ym8jTBOl2MjdMhLlRw</a>
+<br> This content is free for noncommercial reuse with attribution.
+CC-BY-NC</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

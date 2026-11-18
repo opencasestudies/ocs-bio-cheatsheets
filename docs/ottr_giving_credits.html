@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>ottr_giving_credits.knit</title>
+
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link rel="shortcut icon" href="css/images/basic_otter_water.ico" />
+<!--- go to https://favicon.io/favicon-converter/ to upload an image to make a new favicon.io. You will need to replace the current favicon.io image with the one in the downloaded directory from the website. The current image is in the resources/images/ directory --->
+
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="css/OTTR_style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<div class="header_box">
+<p><u>OTTR Giving Credits</u><br><span style="color:#986753;"> Crediting
+contributors clearly </span></p>
+</div>
+<div class="png_button">
+<a href="https://github.com/ottrproject/cheatsheets/blob/main/pngs/ottr_giving_credits.png?raw=true">Download
+cheatsheet</a>
+</div>
+<div class="time">
+<strong>Last updated: September 11, 2026</strong>
+</div>
+<!-- Open all links in new tab-->
+<p><base target="_blank" rel="noopener noreferrer"/></p>
+<p>OTTR courses use an <code>About.qmd</code>, <code>About.Rmd</code> or
+<code>About.md</code> file to show who contributed to the course and
+what kind of work they did.</p>
+<p>Use the credits table to make contributions easy to understand,
+especially when the same person appears in more than one role.</p>
+<div id="credits-table-checklist" class="section level2">
+<h2>Credits Table Checklist</h2>
+<p><input type="checkbox"> Open <code>About.qmd</code>,
+<code>About.Rmd</code> or <code>About.md</code> in your course
+repository.</p>
+<p><input type="checkbox"> Keep the required engineer role rows listed
+in the <strong>Engineer Roles</strong> section as-is.</p>
+<p><input type="checkbox"> Delete rows for optional roles that do not
+apply to your course (as a reminder, please ensure that you keep rows
+that credit OTTR developers).</p>
+<p><input type="checkbox"> Use singular labels for one person and plural
+labels for multiple people.</p>
+<p><input type="checkbox"> Add links below the table using bracket
+notation when you want names to link to personal websites. For
+example:</p>
+<pre class="markdown"><code>| Credits | Names |
+|:---|:---|
+| Lead Content Instructor | [FirstName LastName] |
+| Course Publishing Engineers | [FirstName LastName], [SecondName LastName] |
+
+&lt;!-- Author information --&gt;
+
+[FirstName LastName]: https://example.com
+[SecondName LastName]: https://example.org</code></pre>
+</div>
+<div id="bracket-notation-for-repeated-authors" class="section level2">
+<h2>Bracket Notation for Repeated Authors</h2>
+<p>Bracket notation keeps the credits table readable when a person
+appears in multiple rows.</p>
+<p>Write the person’s name in square brackets every place the name
+should appear:</p>
+<pre class="markdown"><code>| Credits | Names |
+|:---|:---|
+| Lead Content Instructor | [Avery Example] |
+| Content Author | [Avery Example], [Sam Rivera] |
+| Course Publishing Engineer | [Sam Rivera] |</code></pre>
+<p>Then link each linked name to their personal website once below the
+table:</p>
+<pre class="markdown"><code>&lt;!-- Author information --&gt;
+
+[Avery Example]: https://avery.example.edu
+[Sam Rivera]: https://sam.example.org</code></pre>
+<p><strong>The same bracketed name can be reused as many times as
+needed.</strong> Markdown will link each <code>[Avery Example]</code>
+entry to the same website.</p>
+</div>
+<div id="instructor-roles" class="section level2">
+<h2>Instructor Roles</h2>
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Role</th>
+<th align="left">Use When</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Lead Content Instructor</td>
+<td align="left">The person leads the course content and takes on a
+large share of the teaching/content effort</td>
+</tr>
+<tr class="even">
+<td align="left">Lecturer</td>
+<td align="left">The person delivers the course online or in recorded
+teaching materials</td>
+</tr>
+<tr class="odd">
+<td align="left">Content Author</td>
+<td align="left">The person writes a substantial amount of course
+content</td>
+</tr>
+<tr class="even">
+<td align="left">Content Contributor</td>
+<td align="left">The person writes a smaller amount of content, less
+than about one chapter</td>
+</tr>
+<tr class="odd">
+<td align="left">Content Consultant</td>
+<td align="left">The person gives specialized content guidance but does
+not write or edit the content</td>
+</tr>
+<tr class="even">
+<td align="left">Content Editor</td>
+<td align="left">The person edits content without otherwise authoring
+it</td>
+</tr>
+<tr class="odd">
+<td align="left">Content Director</td>
+<td align="left">The person guides the course direction or content
+strategy</td>
+</tr>
+</tbody>
+</table>
+<p class="comment">
+If a person both teaches the material and writes substantial course
+content, list them in each role that applies.
+</p>
+</div>
+<div id="engineer-roles" class="section level2">
+<h2>Engineer Roles</h2>
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Role</th>
+<th align="left">Use When</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Course Publishing Engineer</td>
+<td align="left">The person works on the technical setup or generation
+for this specific course</td>
+</tr>
+</tbody>
+</table>
+<div class="warning">
+<p>Ensure the following role allocations are <strong>not</strong>
+removed from your course, this credits the developers of OTTR:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Role</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Template Publishing Engineer</td>
+</tr>
+<tr class="even">
+<td align="left">Publishing Maintenance Engineer</td>
+</tr>
+<tr class="odd">
+<td align="left">Technical Publishing Stylist</td>
+</tr>
+<tr class="even">
+<td align="left">Package Developer</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="art-and-design-roles" class="section level2">
+<h2>Art and Design Roles</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Role</th>
+<th align="left">Use When</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Illustrator(s)</td>
+<td align="left">Created graphics for the course</td>
+</tr>
+<tr class="even">
+<td align="left">Figure Artist(s)</td>
+<td align="left">Created figures/plots for course</td>
+</tr>
+<tr class="odd">
+<td align="left">Videographer(s)</td>
+<td align="left">Filmed videos</td>
+</tr>
+<tr class="even">
+<td align="left">Videography Editor(s)</td>
+<td align="left">Edited film</td>
+</tr>
+<tr class="odd">
+<td align="left">Audiographer(s)</td>
+<td align="left">Recorded audio</td>
+</tr>
+<tr class="even">
+<td align="left">Audiography Editor(s)</td>
+<td align="left">Edited audio recordings</td>
+</tr>
+</tbody>
+</table>
+<br> <br>
+<center>
+<a href="https://www.ottrproject.org/">
+<img src="css/images/basic_otter_water.png" width = 40%> </a>
+</center>
+<div class="authors">
+<p><strong>Authors</strong>: Padmashri Saravanan from <a
+href="https://www.biodatasage.com/">BioDataSage</a> created the
+cheatsheet content. Carrie Wright reviewed the material. Kate Isaac
+created the original styling, Carrie Wright did the css styling and
+Carrie Wright and Candace Savonen did the publishing engineering for the
+cheatsheet. <a href="https://www.ottrproject.org/">OTTR</a> was created
+and or is maintained by the following team: Candace Savonen, Carrie
+Wright, Kate Isaac, Ava Hoffman, Adam Coffman, Katherine Cox, Federick
+Tan, John Muschelli, Howard Baek, and Jeffrey Leek.</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

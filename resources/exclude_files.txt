@@ -1,0 +1,10 @@
+About.Rmd
+docs/*
+style-sets/*
+manuscript/*
+CONTRIBUTING.md
+CONTRIBUTING.Qmd
+LICENSE.md
+code_of_conduct.md
+README.md
+chunks/download_header.md

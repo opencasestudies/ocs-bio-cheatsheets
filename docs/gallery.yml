@@ -1,0 +1,88 @@
+
+
+- category: Conferences & Engagement
+  description: |
+    Cheatsheets to help trainees and PIs with scientific communication and networking.
+  tiles:
+    - title: Attending Conferences
+      href: https://ottrproject.org/cheatsheets/attending_conferences.html
+      code: https://github.com/ottrproject/cheatsheets/blob/main/attending_conferences.Rmd
+      thumbnail: pngs/attending_conferences.png
+    - title: Presenting Talks
+      href: https://ottrproject.org/cheatsheets/talks.html
+      code: https://github.com/ottrproject/cheatsheets/blob/main/talks.Rmd
+      thumbnail: pngs/talks.png
+    - title: Chairing Sessions - Roles & Goals
+      href: https://ottrproject.org/cheatsheets/chairing.html
+      code: https://github.com/ottrproject/cheatsheets/blob/main/chairing.Rmd
+      thumbnail: pngs/chairing.png
+    - title: Social Media for Scientists
+      href: https://ottrproject.org/cheatsheets/social_media.html
+      code: https://github.com/ottrproject/cheatsheets/blob/main/social_media.Rmd
+      thumbnail: pngs/social_media.png
+
+- category: Research & Software Development
+  description: |
+    Cheatsheets for best practices, tools, and tips for research and scientific software development. 
+  tiles:
+    - title: CI/CD
+      href: https://ottrproject.org/cheatsheets/cicd.html
+      code: https://github.com/ottrproject/cheatsheets/blob/main/cicd.Rmd
+      thumbnail: pngs/cicd.png
+    - title: AI Everyday Uses
+      href: https://ottrproject.org/cheatsheets/ai_everyday_uses.html
+      code: https://github.com/ottrproject/cheatsheets/blob/main/ai_everyday_uses.Rmd
+      thumbnail: pngs/ai_everyday_uses.png
+
+- category: OTTR
+  description: |
+    Cheatsheets for using our Open-source Tools for Training Resources (OTTR) software to create websites and courses with automatic rendering and checks.
+  tiles:
+    - title: OTTR Course
+      href: https://ottrproject.org/cheatsheets/ottr_course.html
+      code: https://github.com/ottrproject/cheatsheets/blob/main/ottr_course.Rmd
+      thumbnail: pngs/ottr_course.png
+    - title: OTTR Website
+      href: https://ottrproject.org/cheatsheets/ottr_website.html
+      code: https://github.com/ottrproject/cheatsheets/blob/main/ottr_website.Rmd
+      thumbnail: pngs/ottr_website.png
+    - title: OTTR Quarto Course
+      href: https://ottrproject.org/cheatsheets/ottr_quarto_course.html
+      code: https://github.com/ottrproject/cheatsheets/blob/main/ottr_quarto_course.Rmd
+      thumbnail: pngs/ottr_quarto_course.png
+    - title: OTTR Quarto Website
+      href: https://ottrproject.org/cheatsheets/ottr_quarto_website.html
+      code: https://github.com/ottrproject/cheatsheets/blob/main/ottr_quarto_website.Rmd
+      thumbnail: pngs/ottr_quarto_website.png
+    - title: Update Token/Secret
+      href: https://ottrproject.org/cheatsheets/ottr_token.html
+      code: https://github.com/ottrproject/cheatsheets/blob/main/ottr_token.Rmd
+      thumbnail: pngs/ottr_token.png
+    - title: Creating Pull Requests
+      href: https://ottrproject.org/cheatsheets/ottr_pr.html
+      code: https://github.com/ottrproject/cheatsheets/blob/main/ottr_pr.Rmd
+      thumbnail: pngs/ottr_pr.png
+    - title: Google Analytics Integration
+      href: https://ottrproject.org/cheatsheets/google_analytics.html
+      code: https://github.com/ottrproject/cheatsheets/blob/main/google_analytics.Rmd
+      thumbnail: pngs/google_analytics.png
+    - title: OTTR Sync
+      href: https://ottrproject.org/cheatsheets/ottr_sync.html
+      code: https://github.com/ottrproject/cheatsheets/blob/main/ottr_sync.Rmd
+      thumbnail: pngs/ottr_sync.png
+    - title: OTTR Course Style
+      href: https://ottrproject.org/cheatsheets/ottr_course_style.html
+      code: https://github.com/ottrproject/cheatsheets/blob/main/ottr_course_style.Rmd
+      thumbnail: pngs/ottr_course_style.png
+    - title: OTTR Website Style
+      href: https://ottrproject.org/cheatsheets/ottr_website_style.html
+      code: https://github.com/ottrproject/cheatsheets/blob/main/ottr_website_style.Rmd
+      thumbnail: pngs/ottr_website_style.png
+    - title: OTTR Giving Credits
+      href: https://ottrproject.org/cheatsheets/ottr_giving_credits.html
+      code: https://github.com/ottrproject/cheatsheets/blob/main/ottr_giving_credits.Rmd
+      thumbnail: pngs/ottr_giving_credits.png
+    - title: OTTR Troubleshooting
+      href: https://ottrproject.org/cheatsheets/ottr_troubleshooting.html
+      code: https://github.com/ottrproject/cheatsheets/blob/main/ottr_troubleshooting.Rmd
+      thumbnail: pngs/ottr_troubleshooting.png
